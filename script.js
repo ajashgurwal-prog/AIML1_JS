@@ -1,6 +1,6 @@
 //console.log("Hello World");
 //document.write("Hello World");
-<>//console.log("Hello World");
+/* <>//console.log("Hello World");
     //document.write("Hello World");
     <script type="text/javascript">
         var num = 10;
@@ -41,4 +41,5 @@
     } else {
         console.log("sym1 and sym2 are not equal");
     }
-    </script>
+    </script> */
+    
