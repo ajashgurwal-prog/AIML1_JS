@@ -27,6 +27,40 @@
     refernece object type <br>
     array <br>
     function <br>
+    <script>
+        var i=0;
+        for{i=0;i<3;i++} {
+            console.log(i);
+        }
+        
+    </script>
+    <script type="text/javascript" src="script.js">
+        var count;
+        document.write("starting loop "+"<br/>");
+        for(count=0;count<5;count++) {
+            document.write(count+"<br/>");
+        }
+        document.write("loop ended"+"<br/>");
+        // FOR IN LOOP-----------------------------
+        for(key in Object) {
+            console.log(key+" : "+f[key]);
+        }
+        const person = {
+            fname: "Ajay",
+            lname: "Singh",
+            age: 25,
+           
+        };
+        for(let x in person) {
+            console.log("person details : "+x+" : "+person[x]);
+        }
+        for (const key in person) {
+            if (!Object.hasOwn(person, key)) continue;
+            
+            const element = person[key];
+            console.log(key+" : "+element);
+        }
+    </script>
 
 
 </body>
