@@ -112,9 +112,63 @@
             <FORM>
                 <input type="button" onclick="myFunction()" value="Say Hello" />
             </FORM>
-            
+            <script>
+            var res = null(12,30);
+            function add(a,b) {
+                return a+b;
+            }
 
+</script>
+<script>
+    var add3=(a,b)=>a+b;
+    document.write("Result of addition using arrow function: "+add3(12,30)+"<br/>");
+    var add3=(a,b)=> console.log(a+b);{
+        add3(12,30);
+    }
+</script>
+<script>
+    var add4=(a,b)=>{
+        return a+b;
+    }
+    document.write("Result of addition using arrow function: "+add4(94,27)+"<br/>");
+</script>
+<script>
+    var add5=(a,b)=>{
+        console.log(a+b);
+    }
+    add5(03,36);
+    </script>
+    var person = {
+        name: "Ajay",
+        age: 25,
+        isMarried: true,
+        address: {
+            city: "Delhi",
+            street: "123 Main St"
+            flatNO: "A-101"
 
-
+        }
+        
+    };
+    console.log(person);
+    console.log(person.name);
+    console.log(person.address.street);
+    console.log(person.address.flatNO);
+</script>
+<script>
+    var person2 = new Object();
+    person2.name = "Ajay";
+    person2.age = 25;
+    person2.isMarried = true;
+    person2.address = new Object();
+    person2.address.city = "Delhi";
+    person2.address.street = "123 Main St";
+    person2.address.flatNO = "A-101";
+    console.log(person2);
+    console.log(person2.name);
+    console.log(person2.address.street);
+    console.log(person2.address.flatNO);
+    
+</script>
 </body>
 </html>
